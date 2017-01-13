@@ -1,4 +1,4 @@
-# JSONClass
+# JSONClass (http://www.jsonclass.com)
 JSONClass is a platform for devlopers to reduce repetitive work and better cooperation. It can help you generate program language's class files automatically for JSON protocol communication,you just need to describe the service interfaces.
 
 JSONClass use SIDL(Simple Interface Description Language) to describe service interfaces, just like C language.
