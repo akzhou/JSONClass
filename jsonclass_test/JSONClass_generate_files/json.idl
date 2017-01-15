@@ -1,0 +1,52 @@
+/*
+package
+*/
+namespace jc
+
+/*
+Sign in request
+*/
+struct SignInReq {
+	string username
+	string password
+}
+
+/*
+Sign in response
+*/
+struct SignInRsp {
+	int8 code
+	string msg
+	ClassRoom classRoom
+}
+
+/*
+model
+*/
+struct ClassRoom {
+    list<Student> students
+}
+
+struct Student {
+    bool gender
+    
+    int8 number
+    int16 age
+    int32 grade
+    int64 level
+    
+    float32 height
+    float64 weight
+    
+    Name name
+    
+    list<bool> testBools
+    list<int64> testInts
+    list<float32> testFloats
+    list<string> testStrings
+}
+
+struct Name {
+    string firstName
+    string lastName
+}
